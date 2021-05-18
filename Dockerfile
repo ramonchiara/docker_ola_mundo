@@ -9,4 +9,4 @@ WORKDIR /root
 RUN javac OlaMundo.java
 
 # ENTRYPOINT ["java", "OlaMundo"]
-CMD ["java", "OlaMundo"]
+CMD ["java", "OlaMundo", "Docker"]
